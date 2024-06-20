@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Directories for Go tools
+bin/
+pkg/
+
+# IDE directories
+.vscode/
+.idea/
+
+# Logs and database files
+*.log
+*.sqlite3
+*.db
+*.tmp
+
+# Docker files
+**/Dockerfile*
+**/docker-compose*
+
+# Compiled object files and other temporary files
+*.o
+*.a
+*.test
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Executable files
+receipt-processor
